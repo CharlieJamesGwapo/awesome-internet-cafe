@@ -26,17 +26,15 @@ Software that meters PC usage, charges customers, and manages prepaid time/credi
 - [CCBoot](https://www.ccboot.com/) — The de-facto standard for Windows-based cafes. Combines diskless boot with billing.
 - [ICAFE Cloud](https://icafecloud.com/) — Cloud-managed cafe suite, popular in Asia. Includes diskless, billing, and game library.
 - [Senka Cafe](https://senka.com/) — Long-running commercial billing system with strong reporting.
-- [Smartlaunch](http://www.smartlaunch.net/) — Veteran billing/management platform; widely deployed in Europe.
 - [MyCafeCup](http://www.mycafecup.com/) — Lightweight billing app with a free tier suitable for small cafes (up to 5 PCs).
 - [HandyCafé](https://www.handycafe.com/) — Free Windows-based cafe management software with optional paid features.
 - [Cafe Suite](https://www.cybexsystems.com/cafesuite.html) — Full-featured client/server billing for Windows.
-- [Antamedia Internet Cafe](https://www.antamedia.com/internet-cafe-software/) — Commercial all-in-one with strong feature set.
+- [Antamedia Internet Cafe](https://www.antamedia.com/internet-cafe/) — Commercial all-in-one with strong feature set.
 - [Cybercafe Pro](http://www.cybercafepro.com/) — Mature platform, free for up to 4 client PCs.
 
 ### Open Source / Free
 
 - [GLPI Cafe Plugin](https://github.com/pluginsGLPI) — Asset and ticket tracking adapted for cafe inventory.
-- [phpCafeAdmin](https://sourceforge.net/projects/phpcafeadmin/) — Older PHP/MySQL billing system; useful as a reference implementation.
 
 ## Captive Portal & Authentication
 
@@ -77,7 +75,6 @@ For PC bangs, e-sports lounges, and gaming-focused cafes.
 
 - [GGLeap](https://www.ggleap.com/) — Cloud-based esports center management; popular in NA/EU.
 - [SENET](https://senet.cloud/) — Esports center platform with player profiles, tournaments, billing.
-- [Open Games Library](https://github.com/openblockchainsoftware) — Community-maintained metadata for cafe game collections.
 - [Steam PC Café Program](https://partner.steamgames.com/doc/sitelicense) — Valve's program for offering Steam in public venues, with commercial game licenses.
 - [Lutris](https://lutris.net/) — Open source game launcher useful in Linux gaming cafes.
 - [Sunshine](https://github.com/LizardByte/Sunshine) + [Moonlight](https://moonlight-stream.org/) — Open source self-hosted game streaming, increasingly used to centralize GPUs.
@@ -97,7 +94,6 @@ Know which machines are up, who's using how much bandwidth, and when peak hours 
 
 End-to-end open source stacks worth studying or contributing to.
 
-- [OpenSplash](https://github.com/dougbtv/opensplash) — Reference open source captive portal implementation.
 - [pfsense-captive-portal](https://github.com/pfsense/FreeBSD-ports) — pfSense's open captive portal source.
 - [PiHole](https://pi-hole.net/) — Not cafe-specific, but commonly deployed at the edge of cafe networks for ad/malware filtering.
 - [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) — Alternative to PiHole with a nicer UI; good for content filtering in family-oriented cafes.
@@ -116,7 +112,6 @@ Reference hardware that survives cafe environments (24/7 uptime, dust, power swi
 
 - [MikroTik Hotspot Setup Guide](https://help.mikrotik.com/docs/spaces/ROS/pages/8978449/HotSpot) — Official documentation; the canonical reference.
 - [r/mikrotik wiki](https://www.reddit.com/r/mikrotik/wiki/index/) — Community wiki with cafe-relevant configs.
-- [Setting up CoovaChilli + FreeRADIUS](https://wiki.freeradius.org/guide/coovachilli-howto) — Hotspot recipe for self-hosted cafes.
 - [Diskless Boot 101](https://www.ccboot.com/diskless-boot.htm) — Vendor overview but technically accurate.
 - [PC Bang Operations Manual (Korean)](https://namu.wiki/w/PC%EB%B0%A9) — Comprehensive Korean-language reference on PC bang operations.
 
