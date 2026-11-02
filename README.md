@@ -26,7 +26,6 @@ Software that meters PC usage, charges customers, and manages prepaid time/credi
 - [CCBoot](https://www.ccboot.com/) — The de-facto standard for Windows-based cafes. Combines diskless boot with billing.
 - [ICAFE Cloud](https://icafecloud.com/) — Cloud-managed cafe suite, popular in Asia. Includes diskless, billing, and game library.
 - [Senka Cafe](https://senka.com/) — Long-running commercial billing system with strong reporting.
-- [Smartlaunch](http://www.smartlaunch.net/) — Veteran billing/management platform; widely deployed in Europe.
 - [MyCafeCup](http://www.mycafecup.com/) — Lightweight billing app with a free tier suitable for small cafes (up to 5 PCs).
 - [HandyCafé](https://www.handycafe.com/) — Free Windows-based cafe management software with optional paid features.
 - [Cafe Suite](https://www.cybexsystems.com/cafesuite.html) — Full-featured client/server billing for Windows.
@@ -36,7 +35,6 @@ Software that meters PC usage, charges customers, and manages prepaid time/credi
 ### Open Source / Free
 
 - [GLPI Cafe Plugin](https://github.com/pluginsGLPI) — Asset and ticket tracking adapted for cafe inventory.
-- [phpCafeAdmin](https://sourceforge.net/projects/phpcafeadmin/) — Older PHP/MySQL billing system; useful as a reference implementation.
 
 ## Captive Portal & Authentication
 
