@@ -32,6 +32,7 @@ Software that meters PC usage, charges customers, and manages prepaid time/credi
 - [Cafe Suite](https://www.cybexsystems.com/cafesuite.html) — Full-featured client/server billing for Windows.
 - [Antamedia Internet Cafe](https://www.antamedia.com/internet-cafe-software/) — Commercial all-in-one with strong feature set.
 - [Cybercafe Pro](http://www.cybercafepro.com/) — Mature platform, free for up to 4 client PCs.
+- [aurora](http://auroracloud.gg/) — Fresh take on Gaming Cafe software with deep customization. Built for Windows.
 
 ### Open Source / Free
 
@@ -77,6 +78,7 @@ For PC bangs, e-sports lounges, and gaming-focused cafes.
 
 - [GGLeap](https://www.ggleap.com/) — Cloud-based esports center management; popular in NA/EU.
 - [SENET](https://senet.cloud/) — Esports center platform with player profiles, tournaments, billing.
+- [aurora](http://auroracloud.gg/) — Fresh take on Gaming Cafe software with deep customization. Built for Windows.
 - [Open Games Library](https://github.com/openblockchainsoftware) — Community-maintained metadata for cafe game collections.
 - [Steam PC Café Program](https://partner.steamgames.com/doc/sitelicense) — Valve's program for offering Steam in public venues, with commercial game licenses.
 - [Lutris](https://lutris.net/) — Open source game launcher useful in Linux gaming cafes.
