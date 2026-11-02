@@ -1,0 +1,47 @@
+name: Check links
+
+on:
+  schedule:
+    - cron: "0 3 * * 1" # every Monday 03:00 UTC
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "README.md"
+      - ".github/workflows/check-links.yml"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  lychee:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2.9.0
+        with:
+          # 403/429: sites like Reddit block bots but work in a browser
+          args: >-
+            --no-progress
+            --max-retries 3
+            --timeout 30
+            --accept '200..=299,403,429'
+            README.md
+          fail: false
+
+      - name: Fail the PR check on broken links
+        if: github.event_name == 'pull_request' && steps.lychee.outputs.exit_code != 0
+        run: exit 1
+
+      - name: Open an issue for broken links
+        if: github.event_name != 'pull_request' && steps.lychee.outputs.exit_code != 0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Broken links found"
+          if [ -z "$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "\"$title\" in:title" --json number --jq '.[].number')" ]; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body-file ./lychee/out.md
+          fi
