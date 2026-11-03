@@ -126,3 +126,5 @@ Reference hardware that survives cafe environments (24/7 uptime, dust, power swi
 ## Contributing
 
 Contributions are welcome. Please read the [contribution guidelines](contributing.md) first.
+
+If this list saves you time, you can support its upkeep through [GitHub Sponsors](https://github.com/sponsors/CharlieJamesGwapo).
