@@ -28,13 +28,12 @@ Software that meters PC usage, charges customers, and manages prepaid time/credi
 - [Senka Cafe](https://senka.com/) - Long-running commercial billing system with strong reporting.
 - [MyCafeCup](http://www.mycafecup.com/) - Lightweight billing app with a free tier suitable for small cafes (up to 5 PCs).
 - [HandyCafé](https://www.handycafe.com/) - Free Windows-based cafe management software with optional paid features.
-- [Cafe Suite](https://www.cybexsystems.com/cafesuite.html) - Full-featured client/server billing for Windows.
 - [Antamedia Internet Cafe](https://www.antamedia.com/internet-cafe/) - Commercial all-in-one with strong feature set.
 - [Cybercafe Pro](http://www.cybercafepro.com/) - Mature platform, free for up to 4 client PCs.
 
 ### Open Source / Free
 
-- [GLPI Cafe Plugin](https://github.com/pluginsGLPI) - Asset and ticket tracking adapted for cafe inventory.
+There is currently no actively maintained open source cafe billing system. Older GPL projects such as [gBilling](https://sourceforge.net/projects/gbilling/) (last release 2011) and [mkahawa](https://sourceforge.net/projects/mkahawa/) (last release 2010) are still useful as reference code. If you maintain a current one, please open a pull request.
 
 ## Captive Portal & Authentication
 
